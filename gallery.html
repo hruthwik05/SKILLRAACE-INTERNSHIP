@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .text-center{
+            background-color: rgb(226, 233, 229);
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(96, 94, 94, 0.2);
+        
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2 class="text-center">Photo Gallery</h2>
+    <div class="row gallery mt-4">
+        <div class="col-md-4 mb-4">
+            <img src="img4.avif" alt="Photo 1" class="img-fluid">
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="img5.webp" alt="Photo 2" class="img-fluid">
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="img6.jpg" alt="Photo 3" class="img-fluid">
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="img7.jpg" alt="Photo 4" class="img-fluid">
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="img8.webp" alt="Photo 5" class="img-fluid">
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="img4.avif" alt="Photo 6" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
